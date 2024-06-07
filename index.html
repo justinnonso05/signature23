@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Document</title>
+</head>
+<header id="header">
+    <div class="logo">Signature56</div>
+    <div class="menu-container">
+        <div class="menu-bar"></div>
+        <div class="menu-bar middle"></div>
+        <div class="menu-bar"></div>
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </div>
+</header>
+<body>
+    <div class="slide-menu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+    <div class="cover"><span class="s">S</span><span class="i">I</span><span class="g">G</span><span class="n">N</span><span class="a">A</span><span class="t">T</span><span class="u">U</span><span class="r">R</span><span class="e">E</span><span class="num">56</span></div>
+    <div class="content">
+        <div class="intro">
+            <div class="image" id="home">
+                <h2>Welcome to Signature56 Studio</h2>
+                <p>"Moments Captured Beautifully"</p>
+                <a href="#contact" class="contact">Contact Us <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="#works" class="works">View Our Works <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <div class="about">
+                <h2 class="about element" id="about">About Us</h2>
+                <div class="about-wrapper">
+                    <img class="element" src="logo.jpg" alt="image">
+                    <div>
+                        <p class="name element">SIGNATURE56 STUDIO</p>
+                        <p class="element">At <b>Signature56 Studio</b>, we capture the moments that matter most. From weddings to family portraits and professional headshots, our team delivers personalized, memorable photography experiences. <br><br> Our services cater to your needs, specializing in weddings, family portraits, and professional headshots. We preserve heartfelt moments, celebrate bonds, and provide polished representations. <br><br> Explore our portfolio to see the stories we've captured. Book your session today to turn your precious moments into timeless memories with Signature56 Studio.
+                        <div class="connect-social-des element">
+                            <div class="icons-des">
+                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                <a href=""><i class="fa-brands fa-facebook-messenger"></i></a>
+                                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="count-container element">
+            <h2 class="over">Over</h2>
+            <div class="count-container-des">
+                <div class="count-box">
+                    <div class="count" data-target="5">0</div>
+                    <p>Years of creative excellence</p>
+                </div>
+                <div class="count-box">
+                    <div class="count" data-target="200">0</div>
+                    <p>Satisfied customers</p>
+                </div>
+                <div class="count-box">
+                    <div class="count" data-target="2000">0</div>
+                    <p>Unique photos</p>
+                </div> 
+            </div>
+        </div>
+        <div class="image-con element">
+            <h2 id="works">Our Works</h2>
+            <div class="image-container element">
+                <button class="left-btn" onclick="prevImage()">❮</button>
+                <div class="image-wrapper">
+                    <img src="file1.jpg" class="slide">
+                    <img src="file2.jpg" class="slide">
+                    <img src="file3.jpg" class="slide">
+                    <img src="file4.jpg" class="slide">
+                    <img src="file5.jpg" class="slide">
+                    <img src="file6.jpg" class="slide">
+                    <img src="file7.jpg" class="slide">
+                    <img src="file8.jpg" class="slide">
+                    <img src="file9.jpg" class="slide">
+                    <img src="file10.jpg" class="slide">
+                    <!-- Add more images as needed -->
+                </div>
+                <button class="right-btn" onclick="nextImage()">❯</button>
+            </div>
+            <div class="slide-des"><img src="file11.png" class="slide-des"></div>
+            <div class="gallery-but element"><a href="">View Photo Gallery <i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+        </div>
+        <div class="services element">
+            <h2 class="services" id="services">Our Services include</h2>
+            <div class="services-con">
+                <div class="element"><i class="fa-solid fa-ring"></i><label for="">Event Photography </label></div>
+                <div class="element"><i class="fa-solid fa-users"></i><label for="">Family Photography </label></div>
+                <div class="element"><i class="fa-solid fa-id-badge"></i><label for="">Professional Headshots </label></div>
+                <div class="element"><i class="fa-solid fa-briefcase"></i><label for="">Commercial Photography</label></div>
+                <div class="element"><i class="fa-solid fa-user"></i><label for="">Portrait Photography</label></div>
+                <div class="element"><i class="fa-solid fa-magic"></i><label for="">Photo Restoration and retouching</label></div>
+                <div class="element"><i class="fa-solid fa-print"></i><label for="">Printing and Framing Services</label></div>
+                <div class="element"><i class="fa-solid fa-cloud-download-alt"></i><label for="">Online Galleries and Digital Downloads</label></div>
+            </div>
+            <div class="book-session element">
+                <a href="">Book a session with us now <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="connect-social element">
+            <h2>Connect with us on socials</h2>
+            <div class="icons">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-facebook-messenger"></i></a>
+                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="contact-us" id="contact">
+            <h2 class="element">Contact Us</h2>
+            <div class="contact-des">
+                <div class="connect-social element con-social-des">
+                    <h2>Connect with us on socials</h2>
+                    <div class="icons">
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook-messenger"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <form class="contact element" method="POST" netlify name="portfolio-contact">
+                    <p>You can contact us through the form below.</p>
+                    <input class="name" name ="name" id="name" type="text" placeholder="Name" required><br>
+                    <input class="email" name ="email" id="email" type="email" placeholder="Email" required><br>
+                    <textarea class="message" name ="message" id="message" placeholder="Your message..." cols="30" rows="7" required></textarea><br>
+                    <button class="submit" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="thanks element"><p>Thank you for visiting our site</p></div>
+        <div class="footer element">
+            <div class="footer-contact">
+                <p><i class="fa-solid fa-map-marker-alt"></i><label>Block 1, Plot 2, Site C, Gate Busstop, Abesan Estate Rd, Ipaja Lagos</label></p>
+                <p><i class="fa-solid fa-phone"></i><a href="tel:+2348062339932">+2348062339932</a></p>
+                <p><i class="fa-solid fa-envelope"></i><a href="mailto:56signature@gmail.com">56signature@gmail.com</a></p>
+            </div>
+            <div class="footer-des">
+                <div class="footer-message">
+                    <p>"Capturing Life's Moments, One Click at a Time."</p>
+                    <h3>Signature56 &copy; 2024 </h3>
+                </div>
+                <div class="footer-socials">
+                    <a href="https://www.instagram.com/signature_56/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook-messenger"></i></a>
+                    <a href="api.whatsapp.com/send?phone=2348062339932" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+</html>
